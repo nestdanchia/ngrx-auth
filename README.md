@@ -1,7 +1,7 @@
 # ngrx8-auth
 ### HACE UN FORK DE ESTE PROYECTO 
 # Usar la Rama update-version8
-### git clone TU URL DEL PROYECTO
+### git clone TU URL FORK DEL PROYECTO
  ### git branch update-version8
 ### git checkout update-version8
 ### git pull origin update-version8
