@@ -14,7 +14,8 @@
  *....In the **Settings** for your new Auth0 app, add `http://localhost:4200/callback`....Add `http://localhost:4200` to the **Allowed Logout URLs**.........Click the "Save Changes" button........copiar **Domain** and **Client ID**
  ###
 *modificar el archivo que cambiamos de nombre environment.ts con estos valores o los obtenidos en tu aplicacion 
-*export const environment = {
+#
+export const environment = {
   production: false,
   auth: {
     clientID: 'LSQJA0oHDHs4CCcDQo00PdU9ZiHdBQv2',
