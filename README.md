@@ -15,7 +15,7 @@
  ###
 *modificar el archivo que cambiamos de nombre environment.ts con estos valores o los obtenidos en tu aplicacion 
 #
-export const environment = {
+`export const environment = {
   production: false,
   auth: {
     clientID: 'LSQJA0oHDHs4CCcDQo00PdU9ZiHdBQv2',
@@ -23,7 +23,8 @@ export const environment = {
     redirect: 'http://localhost:4200/callback',
     scope: 'openid profile email'
   }
-};
+};`
+
 ..........................................................................
 
 
