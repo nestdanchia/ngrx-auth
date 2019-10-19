@@ -1,17 +1,20 @@
 # ngrx8-auth
-Usar la Rama update-version8
-git clone 
-git branch update-version8
-git checkout update-version8
-git pull origin update-version8
-npm install
+### Usar la Rama update-version8
+### git clone 
+ ### git branch update-version8
+### git checkout update-version8
+### git pull origin update-version8
+### npm install
 .........................................................................
+###
 1.Cambiar el nombre del archivo  environment.ts.example por environment.ts
-2.Esta aplicacio usa [Auth0](https://auth0.com) para el manejo de la autentificacion
-logearse en la pagina y obtener clientID , domain para ello eleccionar "Single Page Web Applications," and click the "Create" button
- ....In the **Settings** for your new Auth0 app, add `http://localhost:4200/callback`....Add `http://localhost:4200` to the **Allowed Logout URLs**.........Click the "Save Changes" button........copiar **Domain** and **Client ID**
-modificar el archivo que cambiamos de nombre environment.ts con estos valores o los obtenidos en tu aplicacion 
-export const environment = {
+*2.Esta aplicacio usa [Auth0](https://auth0.com) para el manejo de la autentificacion
+*logearse en la pagina y obtener clientID , domain para ello eleccionar "Single Page Web Applications," and click the "Create" button
+###
+ *....In the **Settings** for your new Auth0 app, add `http://localhost:4200/callback`....Add `http://localhost:4200` to the **Allowed Logout URLs**.........Click the "Save Changes" button........copiar **Domain** and **Client ID**
+ ###
+*modificar el archivo que cambiamos de nombre environment.ts con estos valores o los obtenidos en tu aplicacion 
+*export const environment = {
   production: false,
   auth: {
     clientID: 'LSQJA0oHDHs4CCcDQo00PdU9ZiHdBQv2',
